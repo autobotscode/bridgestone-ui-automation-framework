@@ -8,6 +8,18 @@
 3. Windows OS
 4. IntelliJ
 
+
+**Technical Stack:**
+Selenium WebDriver
+Page Object Model
+Cucumber
+JUnit
+TestNG assertions
+Maven
+Log4j
+CSV 
+
+
 **Steps to run:**
 
 1. Either right click on TireSize.feature file
