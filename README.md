@@ -10,14 +10,14 @@
 
 
 **Technical Stack:**
-Selenium WebDriver
-Page Object Model
-Cucumber
-JUnit
-TestNG assertions
-Maven
-Log4j
-CSV 
+-Selenium WebDriver
+-Page Object Model
+-Cucumber
+-JUnit
+-TestNG assertions
+-Maven
+-Log4j
+-CSV 
 
 
 **Steps to run:**
