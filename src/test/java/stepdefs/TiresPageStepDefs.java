@@ -50,10 +50,10 @@ public class TiresPageStepDefs {
         csvData.add(properties.getProperty("csvHeaders").split(","));
         if (wheelDiameters.size() > 0) {
             //Iterating to each diameter
-            for (int d=0; d<1; d++) {
+            for (int d=0; d<wheelDiameters.size(); d++) {
                 String diameterText = wheelDiameters.get(d).getText().trim();
-                browserUtils.click(wheelDiameters.get(d));
-                browserUtils.waitForPageTitle("Inch Tires",30);
+               // browserUtils.click(wheelDiameters.get(d));
+                webDriver.get(wheelDiameters.get(d).getAttribute("href"));
                 log.info("##############clicked on " + diameterText + " diameter URL:->+"+webDriver.getCurrentUrl()+"+######");
                 Asserts.expectToBeTrue(webDriver.getTitle().contains("Inch Tires"), "Failed to navigate " + diameterText + " tires");
                 browserUtils.waitForElements(tiresPage.inchTires,30);
