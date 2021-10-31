@@ -20,4 +20,7 @@
 3. using maven  goal( change tag name for required test to run)
 
  clean verify "-Dcucumber.options=--tags @CaptureTireDetails"
+ 
+ 
 
+Note: Refer "Results_XXXXX.csv" file post execution for Tire Size, Count & URL details generated at project root directoty.
