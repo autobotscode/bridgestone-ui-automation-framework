@@ -10,14 +10,14 @@
 
 
 **Technical Stack:**
--Selenium WebDriver
--Page Object Model
--Cucumber
--JUnit
--TestNG assertions
--Maven
--Log4j
--CSV 
+1. Selenium WebDriver
+2. Page Object Model
+3. Cucumber
+4. JUnit
+5. TestNG assertions
+6. Maven
+7. Log4j
+8. CSV 
 
 
 **Steps to run:**
@@ -28,11 +28,12 @@
 
    or
 
-
 3. using maven  goal( change tag name for required test to run)
 
  clean verify "-Dcucumber.options=--tags @CaptureTireDetails"
  
  
 
-Note: Refer "Results_XXXXX.csv" file post execution for Tire Size, Count & URL details generated at project root directoty.
+Note: Refer "Results_XXXXX.csv" file post execution for Tire Size, Count & URL details generated at project root directoty. Observed more than 200 links during execution for capturing Tire details.
+
+
