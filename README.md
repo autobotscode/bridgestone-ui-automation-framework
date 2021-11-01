@@ -10,7 +10,7 @@
 
 
 **Technical Stack:**
--Selenium WebDriver
+-Selenium WebDriver \n
 -Page Object Model
 -Cucumber
 -JUnit
@@ -27,7 +27,6 @@
 2. Mention tags in CukesRunner.java and run the file
 
    or
-
 
 3. using maven  goal( change tag name for required test to run)
 
